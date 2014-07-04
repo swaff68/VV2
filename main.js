@@ -76,8 +76,19 @@ var userResponse = confirm("Thanks, now go save those students!");
 	else {
 		$('.volunteer-info input').val("");
 	}
-	return false;
+	// return false;
 
+var userRating = prompt('Please rate this app! (1-5)')
+
+	if(userRating <4){
+		alert("Come on man, dont be so picky!")
+	
+
+	}
+
+	else {
+		alert('Thanks dude!')
+	}
 
 });
 
